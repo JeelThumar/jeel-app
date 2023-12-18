@@ -1,0 +1,211 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+ */
+
+
+  @font-face {
+   font-family: outfit;
+   src: url(../public/Outfit-VariableFont_wght.ttf);
+  }
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #EEF7F2;
+}
+
+              /* Header */
+
+ .main{
+    justify-content: space-between;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    padding: 0.7% 12%; 
+    display: flex;
+    font-family: Outfit;
+    
+ }
+
+ .logo{
+   font-family: Outfit;
+    font-size: 35px;
+    margin-top: 6px;
+    margin-bottom: 8px;
+    color: rgb(63,94,251);
+    /* background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%); */
+ }
+
+
+
+ .btn{
+    padding: 8px 15px;
+    margin: 7px 0 4px 0;
+    border-radius: 10px;
+    /* font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    /* font-family: 'Outfit', sans-serif; */
+    font-family: Outfit;
+    font-size: 15px;
+    /* font-weight: 100; */
+    background-color: transparent;
+ }
+
+
+ hr{
+    margin-top: 0;
+
+ }
+
+
+         /* Nev item */
+
+.menubar{
+    font-weight:lighter;
+    display: flex;
+    gap: 40px;
+    /* margin: 0 0 10px 0; */ 
+}         
+ .nev{
+    margin: 1rem 0 0 0;
+    font-weight:400;
+ }
+ .hnev{
+    margin: 1rem 0 0 0;
+    color: blueviolet;
+ }
+
+
+ #text{
+    padding-top: 14%;
+    /* padding-left: 9%; */
+ }
+
+
+ #btn{
+    margin-top: 9%;
+ }
+
+ .btn2{
+    padding: 9.600px 33.943px;
+    border-radius: 10px;
+    border-width: 0;
+    font-family: Outfit;
+    font-size: 15px;
+    font-weight: 400;
+    background-color: #724cf7;
+    color: white;
+}
+
+ .btn3{
+    padding: 8px 24px;
+    margin-left: 20px;
+    border-radius: 10px;
+    font-family: Outfit;
+    font-size: 15px;
+    font-weight: 400;
+    /* background-color: #724cf7; 
+    color: white; */
+ }
+
+ .secondtext{
+   color:#6e7470;
+   /* letter-spacing: 1px; */
+   margin-top: 4px;
+   font-size: 15px;
+   font-family: Outfit;
+   font-weight: 400;
+ }
+
+ .bus{
+    display: flex;
+ }
+
+ .bus1{
+    margin-right: 10px;
+    color: #8a73d7;
+ }
+
+ h1{
+    margin: 0;
+    font-size: 50px;
+ }
+
+ h5{
+    color: #000000;
+ }
+
+.body{
+   display: flex;
+   justify-content: space-between;
+   margin: 0 12%;
+   font-family: Outfit;
+}
+
+ .last{
+    /* margin-top: 100px; */
+    min-height: 100px;
+    background: rgb(165,83,255);
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    /* padding: 1% 15% 0 15%; */
+    padding: 30px 150px 5px 150px;
+    font-family: Outfit;
+ }
+
+ .num{
+    display: flex;
+    justify-content: space-between;
+ }
+ .nam{
+   
+    color: #000000;
+    margin: 0;
+ }
+
+ .nmm{
+    display: flex;
+    justify-content: space-between;
+ }
+
+ #la1{
+    margin-top: 6px;
+ }
+
+ h2{
+    font-size: 35px;
+    margin-top: 6px;
+    margin-bottom: 8px;
+    color: #fff;
+}
+
+.imgd{
+   height: 75px;
+   width: 90px;
+
+}
+#fLillu{
+   display: flex;
+}
+
+.imgr{
+   margin: 5% 0 10% 0;
+}
+
+.number {
+   display: flex;
+   justify-content: space-between;
+   margin: 0 8%;
+   font-size: xxx-large;
+ }
+
+ .info{
+   display: flex;
+   justify-content: space-between;
+   margin: 8px 8%;
+   font-size: 20px;
+   font-family: 'outfit';
+   font-weight: 500;
+ }
